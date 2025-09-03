@@ -1,0 +1,10 @@
+In LangChain, data ingestion is the process of preparing external data so it can be 
+effectively used by large language models for tasks like question answering and retrieval-augmented generation. 
+It begins with collecting data from various sources such as PDFs, text files, databases, 
+or web pages through document loaders, after which the data is broken down into smaller, 
+manageable chunks using text splitters since LLMs cannot handle very large documents directly. 
+These chunks are then converted into embeddings using models like OpenAI or HuggingFace, which 
+represent the semantic meaning of the text in numerical form. The embeddings are stored in vector 
+databases such as FAISS, Pinecone, or Chroma, enabling efficient similarity search. Later, when a user 
+poses a query, the system retrieves the most relevant chunks based on semantic similarity and provides 
+them to the LLM, ensuring accurate, context-aware, and meaningful responses.
