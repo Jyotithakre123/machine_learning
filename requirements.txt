@@ -9,5 +9,6 @@ opencv-python
 nltk
 spacy
 textblob
-
+google-generativeai
 emoji
+
