@@ -11,4 +11,10 @@ spacy
 textblob
 google-generativeai
 emoji
+langchain
+faiss-cpu
+langchain_community
+wikipedia
+numexpr
+
 
