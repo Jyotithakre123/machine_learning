@@ -4,9 +4,10 @@ pandas
 matplotlib
 seaborn
 scikit-learn
-tensorflowcdc
+tensorflow
 opencv-python
 nltk
 spacy
 textblob
+
 emoji
