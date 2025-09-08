@@ -16,5 +16,7 @@ faiss-cpu
 langchain_community
 wikipedia
 numexpr
+langchain-google-genai
+
 
 
